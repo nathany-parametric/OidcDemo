@@ -12,6 +12,7 @@ namespace OidcDemo.Controllers
         }
 
         [Authorize]
+        //home/secured
         public IActionResult Secured()
         {
             //var items = HttpContext.AuthenticateAsync().Result.Properties.Items;
